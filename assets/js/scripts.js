@@ -142,6 +142,7 @@
 				jQuery("#home div.slider").css("background-attachment", "fixed");
 				jQuery("#home div.slider").parallax("50%", "0.4");
 
+				$(".slider-current").css({'background-color': 'white'})
 			}
 
 		});
