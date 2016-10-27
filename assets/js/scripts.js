@@ -118,7 +118,7 @@
  **************************************************************** **/
 	function _parallax() {
 
-		jQuery(window).load(function () {
+		jQuery(window).ready(function () {
 
 			if(jQuery().parallax) {
 
