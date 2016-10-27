@@ -1043,8 +1043,8 @@ footer p.alternate {
 @media only screen and (max-width: 1024px) {
 	.slider,
 	.parallax {
-		background-attachment: scroll !important;
-		background-position: center !important;
+		/*background-attachment: scroll !important;
+		background-position: center !important;*/
 		background-size: 1024px 100% !important;
 	}
 }
