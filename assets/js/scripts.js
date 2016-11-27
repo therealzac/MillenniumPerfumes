@@ -547,7 +547,7 @@
 			var _el		 		= jQuery(this),
 				destination 	= jQuery("ul.sort-destination[data-sort-id=" + jQuery(this).attr("data-sort-id") + "]");
 
-			if(destination.get(0)) {
+			if(true) {
 
 				jQuery(window).ready(function() {
 
