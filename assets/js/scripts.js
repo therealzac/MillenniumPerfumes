@@ -549,7 +549,7 @@
 
 			if(destination.get(0)) {
 
-				jQuery(document).ready(function() {
+				jQuery(window).load(function() {
 
 					destination.isotope({
 						itemSelector: 	"li",
@@ -583,7 +583,7 @@
 		});
 
 
-		jQuery(document).ready(function() {
+		jQuery(window).load(function() {
 			jQuery("ul.isotope").addClass('fadeIn');
 			$(".perfumes-hidden").removeClass('perfumes-hidden');
 		});
