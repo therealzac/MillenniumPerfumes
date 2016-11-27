@@ -586,7 +586,6 @@
 		jQuery(window).ready(function() {
 			jQuery("ul.isotope").addClass('fadeIn');
 			$(".perfumes-hidden").removeClass('perfumes-hidden');
-
 		});
 
 
