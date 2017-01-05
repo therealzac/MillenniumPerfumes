@@ -968,7 +968,7 @@ p span.label {
 	color:#333;
 }
 
-@media only screen and (max-width: 768px) {
+@media  screen and (max-width: 768px) {
 	#blog .socials {
 		float:none;
 		margin-top:0;
@@ -1039,13 +1039,13 @@ footer p.alternate {
 
 /** --. Responsive
 **************************************************************** **/
-@media only screen and (max-width: 1220px) {
+@media  screen and (max-width: 1220px) {
 	#header .container {
 		width:100%;
 		display:block;
 	}
 }
-@media only screen and (max-width: 1024px) {
+@media  screen and (max-width: 1024px) {
 	.slider,
 	.parallax {
 		/*background-attachment: scroll !important;
@@ -1055,13 +1055,13 @@ footer p.alternate {
 }
 
 
-@media only screen and (max-width: 960px) {
+@media  screen and (max-width: 960px) {
 	#header .navbar-inverse .navbar-nav>li>a {
 		padding-left: 22px;
 		padding-right: 20px;
 	}
 }
-@media only screen and (max-width: 767px) {
+@media  screen and (max-width: 767px) {
 	#header {
 		opacity:1 !important;
 		filter: alpha(opacity=100) !important;
@@ -1110,7 +1110,7 @@ footer p.alternate {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media  screen and (max-width: 768px) {
 	.featured .row>div,
 	.featured .row {
 		margin:0;
@@ -1204,14 +1204,14 @@ footer p.alternate {
 	}
 }
 
-@media only screen and (max-width: 640px) {
+@media  screen and (max-width: 640px) {
 	.item-box {
 		max-width:100%;
 	}
 }
 
 
-@media only screen and (max-width: 479px) {
+@media  screen and (max-width: 479px) {
 	#home h1 {
 		padding-top:60px;
 		font-size:47px; line-height:47px;
@@ -1259,7 +1259,7 @@ footer p.alternate {
 	}
 }
 
-@media only screen and (max-height: 450px) and (max-width: 767px) {
+@media  screen and (max-height: 450px) and (max-width: 767px) {
 	#header .navbar-nav {
 		max-height:160px; overflow:hidden;
 		overflow-y:auto;
@@ -1284,7 +1284,7 @@ footer p.alternate {
 	}
 }
 
-@media only screen and (max-height: 450px) {
+@media  screen and (max-height: 450px) {
 
 
 	#home h1 {
@@ -1300,7 +1300,7 @@ footer p.alternate {
 }
 
 
-/** DEMO ONLY
+/** DEMO
  **************************************************************** **/
 /** feature-icons.html - icon text color - can be removed on production **/
 .fa-hover a {
