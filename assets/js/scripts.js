@@ -719,7 +719,7 @@
 	function showMap(initWhat) {
 		var script 		= document.createElement('script');
 		script.type 	= 'text/javascript';
-		script.src 		= 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&callback='+initWhat;
+		script.src 		= 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&key=AIzaSyBYbpROZKovdpA5fOswDhI5rdIa_nq0X7c&callback='+initWhat;
 		document.body.appendChild(script);
 	}
 
