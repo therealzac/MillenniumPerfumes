@@ -1213,7 +1213,7 @@ footer p.alternate {
 
 @media screen and (max-width: 479px) {
 	#home h1 {
-		padding-top:75px;
+		padding-top:60px;
 		font-size:47px; line-height:47px;
 		line-height:60px;
 		padding-bottom:0;
@@ -1323,7 +1323,7 @@ footer p.alternate {
 
 .millennium-header {
 	margin-bottom: 0;
-	margin-top: 300px;
+	margin-top: 350px;
 }
 
 .perfumes {
