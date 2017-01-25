@@ -370,6 +370,7 @@ div.price-table.popular p span{
 	background-color:transparent;
 }
 #portfolio .nav li>a {
+	color: black;
 	margin: 0px 55px;
 	font-weight: 100;
 	font-size: 18px;
