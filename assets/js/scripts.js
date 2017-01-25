@@ -501,13 +501,13 @@
 
 			if(href != '#') {
 				window._lastScrollTo = href;
-				jQuery('html,body').animate({scrollTop: jQuery(href).offset().top/* - 60*/}, 1000, 'easeInOutExpo');
+				jQuery('html,body').animate({scrollTop: jQuery(href).offset().top}, 1500, 'easeInOutExpo');
 			}
 		});
 
 		jQuery("a.toTop").bind("click", function(e) {
 			e.preventDefault();
-			jQuery('html,body').animate({scrollTop: 0}, 1000, 'easeInOutExpo');
+			jQuery('html,body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
 		});
 
 		// On Resize
@@ -605,9 +605,9 @@
 		jQuery("div.toggle > label").click(function(e) {
 
 			var parentSection 	= jQuery(this).parent(),
-				parentWrapper 	= jQuery(this).parents("div.toogle"),
-				previewPar 		= false,
-				isAccordion 	= parentWrapper.hasClass("toogle-accordion");
+					parentWrapper 	= jQuery(this).parents("div.toogle"),
+					previewPar 	 		= false,
+					isAccordion 		= parentWrapper.hasClass("toogle-accordion");
 
 			if(isAccordion && typeof(e.originalEvent) != "undefined") {
 				parentWrapper.find("div.toggle.active > label").trigger("click");
@@ -617,7 +617,7 @@
 
 			if(parentSection.find("> p").get(0)) {
 
-				previewPar 					= parentSection.find("> p");
+				previewPar 									= parentSection.find("> p");
 				var previewParCurrentHeight = previewPar.css("height");
 				var previewParAnimateHeight = previewPar.css("height");
 				previewPar.css("height", "auto");
