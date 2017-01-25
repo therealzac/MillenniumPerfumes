@@ -1325,3 +1325,13 @@ footer p.alternate {
 .perfumes {
 	min-height: 800px;
 }
+
+#contact-anchor {
+	position: absolute;
+	top: -100px;
+}
+
+#portfolio-anchor {
+	position: absolute;
+	top: 618px;
+}
