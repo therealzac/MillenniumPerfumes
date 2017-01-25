@@ -37,7 +37,7 @@ html, body {
 
 body {
 	color:#787878;
-	font-family:'Open Sans', Arial, sans-serif;
+	font-family:'Roboto' Arial;
 	background-color:#fbfbfb;
 	letter-spacing:0px;
 
@@ -265,7 +265,7 @@ a.up:hover {
 			border-radius: 0;
 }
 	#header .navbar-brand {
-		height:auto;
+		height: auto;
 	}
 	#header .nav.navbar-nav {
 		margin-top:10px;
@@ -275,10 +275,11 @@ a.up:hover {
 	#header .navbar-inverse .navbar-nav>li>a {
 		color:white;
 		text-transform: uppercase;
-		font-size:20px;
+		font-size:18px;
 		font-weight: 100;
 		padding-left:28px;
 		padding-right:26px;
+		margin: 0px 10px;
 	}
 	#header .navbar-inverse .navbar-nav>li:after {
 		content: ".";
@@ -286,7 +287,7 @@ a.up:hover {
 		top: -14px;
 		font-size: 24px;
 		color:rgba(0,0,0,0.3);
-		font-family:arial,verdana;
+		font-family: 'Roboto' Arial;
 	}
 	#header .navbar-inverse .navbar-nav>li:first-child:after {
 		display:none;
@@ -369,18 +370,12 @@ div.price-table.popular p span{
 	background-color:transparent;
 }
 #portfolio .nav li>a {
-	padding-left:20px;
+	margin: 0px 55px;
+	font-weight: 100;
+	font-size: 18px;
 }
 #portfolio .nav li:first-child:after {
 	display:none;
-}
-#portfolio .nav li:after {
-	content: ".";
-	position: absolute;
-	top: 4px; left:0;
-	font-size: 24px;
-	color: rgba(0,0,0,0.3);
-	font-family: arial,verdana;
 }
 #portfolio .nav li {
 	max-width:263px;
