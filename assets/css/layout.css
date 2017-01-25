@@ -275,7 +275,7 @@ a.up:hover {
 	#header .navbar-inverse .navbar-nav>li>a {
 		color:white;
 		text-transform: uppercase;
-		font-size:18px;
+		font-size: 24px;
 		font-weight: 100;
 		padding-left:28px;
 		padding-right:26px;
@@ -372,8 +372,8 @@ div.price-table.popular p span{
 #portfolio .nav li>a {
 	color: black;
 	margin: 0px 55px;
-	font-weight: 100;
-	font-size: 18px;
+	font-weight: 200;
+	font-size: 20px;
 }
 #portfolio .nav li:first-child:after {
 	display:none;
@@ -1066,7 +1066,6 @@ footer p.alternate {
 		padding-left:30px;
 	}
 	#header .navbar-inverse .navbar-nav>li {
-		border-bottom:#ddd 1px solid;
 		text-align: center;
 	}
 	#header .navbar-inverse .navbar-nav>li:last-child {
