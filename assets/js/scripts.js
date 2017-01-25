@@ -501,13 +501,13 @@
 
 			if(href != '#') {
 				window._lastScrollTo = href;
-				jQuery('html,body').animate({scrollTop: jQuery(href).offset().top}, 1500, 'easeInOutExpo');
+				jQuery('html,body').animate({scrollTop: jQuery(href).offset().top}, 1000, 'easeInOutExpo');
 			}
 		});
 
 		jQuery("a.toTop").bind("click", function(e) {
 			e.preventDefault();
-			jQuery('html,body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+			jQuery('html,body').animate({scrollTop: 0}, 1000, 'easeInOutExpo');
 		});
 
 		// On Resize
