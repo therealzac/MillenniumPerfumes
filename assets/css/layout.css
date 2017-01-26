@@ -1265,7 +1265,7 @@ footer p.alternate {
 	#header,
 	#header .navbar,
 	#header .navbar-brand{
-		height:47px !important;
+		height:110px !important;
 	}
 	.navbar {
 		min-height:47px;
