@@ -1064,7 +1064,7 @@ footer p.alternate {
 		filter: alpha(opacity=100) !important;
 	}
 	#header .navbar-inverse .navbar-nav>li:first-child>a {
-		padding-left:30px;
+		padding-left:40px;
 	}
 	#header .navbar-inverse .navbar-nav>li {
 		text-align: center;
@@ -1085,7 +1085,7 @@ footer p.alternate {
 	#mobileMenu {
 		display:block;
 		position:absolute;
-		right:15px; top:15px;
+		right:50px; top:50px;
 		font-size:30px;
 	}
 
@@ -1241,6 +1241,7 @@ footer p.alternate {
 		display:block;
 		width:100%;
 		text-align:center;
+		margin-left: 0;
 		padding-left:0;
 		padding-right:0;
 	}
@@ -1324,6 +1325,7 @@ footer p.alternate {
 .inline {
 	display: inline-block;
 	margin-right: 30px;
+	margin-left: 20px;
 }
 
 .millennium-phone {
