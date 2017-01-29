@@ -383,7 +383,6 @@ div.price-table.popular p span{
 	max-width:263px;
 }
 #portfolio .item-box h4 {
-	max-width:224px;
 	overflow:hidden;
 	text-overflow:ellipsis;
 	white-space: nowrap;
@@ -486,6 +485,7 @@ div.inner-cover {
 .item-box-desc {
 	padding:10px 20px;
 	overflow:hidden;
+	text-align: center;
 }
 .item-box-desc p {
 	margin-top:20px;
@@ -1192,7 +1192,7 @@ footer p.alternate {
 	}
 
 	.item-box {
-		max-width:300px;
+		/*max-width:300px;*/
 	}
 
 	.bs-callout .btn {
