@@ -38,7 +38,7 @@
  **************************************************************** **/
 	function Core() {
 
-		_topNav();
+		_svg();
 		_slider();
 		_parallax();
 		_animate();
@@ -72,7 +72,7 @@
 
 /** Top Nav
  **************************************************************** **/
-	function _topNav() {
+	function _svg() {
 		setTimeout(() => {
 			$('.svg-background').css('background-color', 'rgb(120,120,120)')
 		}, 1)
