@@ -73,8 +73,9 @@
 /** Top Nav
  **************************************************************** **/
 	function _topNav() {
-
-
+		setTimeout(() => {
+			$('.svg-background').css('background-color', 'rgb(120,120,120)')
+		}, 1)
 
 	}
 
@@ -907,6 +908,7 @@
 
 /** MISC
 *************************************************** **/
+
 	// easing - only needed
 	jQuery.extend( jQuery.easing,{
 		easeInOutExpo: function (x, t, b, c, d) {
