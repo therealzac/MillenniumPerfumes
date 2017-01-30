@@ -354,6 +354,8 @@ div.price-table.popular p span{
 #portfolio .nav-pills>li.active>a,
 #portfolio .nav-pills>li.active>a:hover,
 #portfolio .nav-pills>li.active>a:focus {
+	color: #a94242;
+	border: 2px solid #a94242;
 	background-color:transparent;
 }
 #portfolio .nav li>a {
@@ -1028,12 +1030,7 @@ footer p.alternate {
 	}
 }
 @media screen and (max-width: 1024px) {
-	.slider,
-	.parallax {
-		/*background-attachment: scroll !important;*/
-		background-position: center !important;
-		background-size: 1024px 100% !important;
-	}
+
 }
 
 
@@ -1044,6 +1041,11 @@ footer p.alternate {
 	}
 }
 @media screen and (max-width: 767px) {
+	.slider,
+	.parallax {
+		background-position: center !important;
+		background-size: 1024px 100% !important;
+	}
 	.millennium-header {
 		font-size: 3em !important;
 	}
