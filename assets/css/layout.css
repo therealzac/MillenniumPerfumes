@@ -354,13 +354,11 @@ div.price-table.popular p span{
 #portfolio .nav-pills>li.active>a,
 #portfolio .nav-pills>li.active>a:hover,
 #portfolio .nav-pills>li.active>a:focus {
-	color:#a94242;
 	background-color:transparent;
 }
 #portfolio .nav li>a {
 	color: #777;
-	margin: 0px 1.62vw;
-	font-weight: 300;
+	margin: 0px 1vw;
 	font-size: 24px;
 }
 #portfolio .nav li:first-child:after {
@@ -1346,11 +1344,14 @@ footer p.alternate {
 	margin-left: 30px;
 	font-size: 1.62em;
 	font-weight: 100;
-	padding: 10px 20px;
+	padding: 10px 20px !important;
 }
 
 .millennium-button:hover {
 	padding: 10px 20px !important;
+	background-color: transparent !important;
+	border: 2px solid #a94242 !important;
+	color: #a94242 !important;
 }
 
 .inline {
