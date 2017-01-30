@@ -218,7 +218,6 @@ a.up:hover {
 #header {
 	display:block;
 	padding:0;
-	height:67px; line-height:67px;
 	background-color: #fff;
 	border-bottom: 1px solid #e5e5e5;
 	box-shadow: white 0px -19px 50px -25px inset;
@@ -1054,10 +1053,10 @@ footer p.alternate {
 		font-size: 2em !important;
 	}
 	.millennium-copy {
-		font-size: 1em !important;
+		font-size: 2vw !important;
 	}
 	.millennium-subcopy {
-		font-size: 0.62em !important;
+		font-size: 1.62vw !important;
 	}
 	#header {
 		opacity:1 !important;
@@ -1085,7 +1084,7 @@ footer p.alternate {
 	#mobileMenu {
 		display:block;
 		position:absolute;
-		right:50px; top:50px;
+		right:50px; top:40px;
 		font-size:30px;
 	}
 
@@ -1265,7 +1264,7 @@ footer p.alternate {
 	#header,
 	#header .navbar,
 	#header .navbar-brand{
-		height:110px !important;
+		/*height:110px !important;*/
 	}
 	.navbar {
 		min-height:47px;
