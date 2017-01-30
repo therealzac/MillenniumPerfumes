@@ -125,23 +125,23 @@
 
 				/* Default */
 				jQuery(".parallax.parallax-default").css("background-attachment", "fixed");
-				jQuery(".parallax.parallax-default").parallax("50%", "0.4");
+				jQuery(".parallax.parallax-default").parallax("50%", "0.6");
 
 				jQuery(".parallax.parallax-1").css("background-attachment", "fixed");
-				jQuery(".parallax.parallax-1").parallax("50%", "0.4");
+				jQuery(".parallax.parallax-1").parallax("50%", "0.6");
 
 				jQuery(".parallax.parallax-2").css("background-attachment", "fixed");
-				jQuery(".parallax.parallax-2").parallax("50%", "0.4");
+				jQuery(".parallax.parallax-2").parallax("50%", "0.6");
 
 				jQuery(".parallax.parallax-3").css("background-attachment", "fixed");
-				jQuery(".parallax.parallax-3").parallax("50%", "0.4");
+				jQuery(".parallax.parallax-3").parallax("50%", "0.6");
 
 				jQuery(".parallax.parallax-4").css("background-attachment", "fixed");
-				jQuery(".parallax.parallax-4").parallax("50%", "0.4");
+				jQuery(".parallax.parallax-4").parallax("50%", "0.6");
 
 				/* Home Slider */
 				jQuery("#home div.slider").css("background-attachment", "fixed");
-				jQuery("#home div.slider").parallax("50%", "0.4");
+				jQuery("#home div.slider").parallax("50%", "0.6");
 
 				$(".slider-current").css({'background-color': 'white'})
 			}
