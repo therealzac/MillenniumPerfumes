@@ -164,18 +164,6 @@ a.up:hover {
 	color:#fff;
 }
 
-#home h1,
-#home h2,
-#home h3 {
-	font-size: 72px;
-	line-height:72px;
-	margin-bottom: 60px;
-	font-weight:600;
-	letter-spacing:1px;
-}
-#home h3 {
-	font-size:60px;
-}
 #home h4,
 #home h5,
 #home h6 {
@@ -1059,6 +1047,18 @@ footer p.alternate {
 	}
 }
 @media screen and (max-width: 767px) {
+	.millennium-header {
+		font-size: 3em !important;
+	}
+	.millennium-subheader {
+		font-size: 2em !important;
+	}
+	.millennium-copy {
+		font-size: 1em !important;
+	}
+	.millennium-subcopy {
+		font-size: 0.62em !important;
+	}
 	#header {
 		opacity:1 !important;
 		filter: alpha(opacity=100) !important;
@@ -1319,12 +1319,44 @@ footer p.alternate {
 /** *** **/
 
 .millennium-header {
+	font-size: 5em;
 	margin-bottom: 0;
+	font-weight: 600;
+	line-height: 1em;
+}
+
+.millennium-subheader {
+	font-size: 3em;
+	margin-bottom: 3vw;
+	font-weight: 200;
+}
+
+.millennium-copy, .millennium-subcopy {
+	font-size: 1.62vw;
+	font-weight: 100;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.millennium-subcopy {
+	font-size: 1vw;
+}
+
+.millennium-button {
+	position: relative;
+	margin-left: 30px;
+	font-size: 1.62em;
+	font-weight: 100;
+	padding: 10px 20px;
+}
+
+.millennium-button:hover {
+	padding: 10px 20px !important;
 }
 
 .inline {
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 20px;
 	margin-left: 20px;
 }
 
